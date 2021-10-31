@@ -1,6 +1,6 @@
 <?php
 require("koneksi.php");
-$perintah = "SELECT * FROM tbl_userMasuk";
+$perintah = "SELECT * FROM tbl_usermasuk";
 $eksekusi = mysqli_query($konek, $perintah);
 $cek = mysqli_affected_rows($konek);
 
